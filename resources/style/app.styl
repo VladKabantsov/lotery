@@ -1,0 +1,83 @@
+@import "variables"
+
+.dflex
+    display flex
+.w-100
+    width 100%!important
+
+.img_div
+    width 33px
+
+.f-cl
+    display flex
+    align-items center
+    justify-content flex-start
+
+.f-cc
+    display flex
+    align-items center
+    justify-content center
+
+.f-cr
+    display flex
+    align-items center
+    justify-content flex-end
+
+.text-center
+    text-align center
+
+.text-right
+    text-align right
+
+.green-btn
+    background linear-gradient(to top, $primary, $secondary)!important
+    color white!important
+    border 0px solid transparent
+    border-radius 20px
+    padding 10px 35px
+    height auto
+    text-transform none
+    font-weight 400
+
+.normal-text
+    font-size 18px
+    color black
+    font-weight 400
+
+.red-text
+    color $accent
+
+.fs-16
+    font-size 16px
+
+.shadow
+    -webkit-box-shadow 0px 0px 37px -2px rgba(0,0,0,0.55)
+    -moz-box-shadow 0px 0px 37px -2px rgba(0,0,0,0.55)
+    box-shadow 0px 0px 37px -2px rgba(0,0,0,0.55)
+
+.rounded
+    border-radius 10px
+
+.green-btn__active
+    background white!important
+    border 1px solid $primary
+    color $primary!important
+
+.avatar
+    border-radius 50%
+    width 100px
+    height 100px
+
+@media only screen and (min-width: 1904px)
+    .container
+        max-width 1185px
+
+@media (max-width: 575px)
+    .green-btn
+        margin-bottom 10px!important
+    
+    .hiden-xs
+        display none
+
+    .rooms
+        justify-content center

@@ -1,0 +1,20 @@
+#Requirements
+PHP 7.2
+MySQL 5.6
+Composer
+
+#Deploy project and start back-end
+Setup .env file (as example take "example.env" and rename it to ".env")
+Configure .env
+In console type:
+    composer install
+    php artisan key:generate
+    php artisan migrate
+    php artisan db:seed
+
+#Start front-end
+npm install
+npm run watch
+
+
+
